@@ -3,3 +3,27 @@
     padding: 20px;
     margin-bottom: 30px;
 }
+
+.overlay{
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 50%;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.overlay.active {
+    display: block;
+}
+
+.close{
+    position: absolute;
+    color: hotpink;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
